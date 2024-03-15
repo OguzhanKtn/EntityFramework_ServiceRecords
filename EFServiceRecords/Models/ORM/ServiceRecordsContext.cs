@@ -20,5 +20,6 @@ namespace EFServiceRecords.Models.ORM
         public DbSet<Staff> Staffs { get; set;}
         public DbSet<SparePart> SpareParts { get; set; }
         public DbSet<ServiceStatus> ServiceStatus { get; set; }
+        public DbSet<WorkAssignment> WorkAssignments { get; set; }
     }
 }
